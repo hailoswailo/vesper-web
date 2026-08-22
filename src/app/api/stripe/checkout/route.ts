@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-import { stripe } from '@/lib/stripe';
+import { getStripe } from '@/lib/stripe';
 
 const PRICE_IDS: Record<'month' | 'year', string | undefined> = {
   month: process.env.STRIPE_PRICE_ID_MONTHLY,
@@ -23,7 +23,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    const session = await stripe.checkout.sessions.create({
+    const session = await getStripe().checkout.sessions.create({
       mode: 'subscription',
       line_items: [{ price: priceId, quantity: 1 }],
       customer_email: email.toLowerCase(),

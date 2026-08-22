@@ -4,7 +4,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 // Refreshes the Supabase auth session on every request and keeps the
 // resulting cookies in sync — without this, server components/route
 // handlers can read a stale or expired session.
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   let response = NextResponse.next({ request });
 
   const supabase = createServerClient(
