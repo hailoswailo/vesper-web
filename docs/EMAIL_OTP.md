@@ -1,5 +1,8 @@
 # Sign-in email: what was broken, and two things still to fix in the dashboard
 
+> **Superseded 2026-09-02**: the code-entry flow described below was replaced with Apple + Google sign-in only (no email step at all). See `SOCIAL_AUTH_SETUP.md`. The diagnosis below is kept as-is because it's still the accurate record of what was actually broken.
+
+
 ## What was broken (confirmed from the Supabase auth logs)
 
 The web `/apply` and `/membership` sign-in used Supabase's magic-link flow
