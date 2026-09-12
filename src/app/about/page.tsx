@@ -2,8 +2,8 @@ import { Body, Card, Display, Eyebrow, Heading } from "@/components/ui";
 
 // First-draft copy — no brand brief exists in the source repo to pull from,
 // so this is written from the app's existing tone (application copy, the
-// four pillars, the "someone reads every application by hand" line) rather
-// than transcribed from anything official. Edit before this goes live.
+// "someone reads every application by hand" line) rather than transcribed
+// from anything official. Edit before this goes live.
 export default function About() {
   return (
     <section className="max-w-3xl mx-auto px-6 py-20">
@@ -18,23 +18,23 @@ export default function About() {
       </Body>
 
       <Body className="mb-6">
-        Membership is organized around four pillars — <span className="text-brass">Faith</span>,{" "}
-        <span className="text-brass">Food &amp; Fitness</span>,{" "}
-        <span className="text-brass">Relationships</span>, and <span className="text-brass">Work</span>{" "}
-        — not as a wellness checklist, but as the four places a life is actually won or lost. Members
-        set a Chief Definite Aim, track the habits that serve it, and check in with themselves daily.
+        Vesper is a community of changemakers, and the site is built around two things:{" "}
+        <span className="text-brass">goal setting</span> and{" "}
+        <span className="text-brass">accountability</span>. Members set real goals, track the
+        habits that serve them, and check in with themselves regularly.
       </Body>
 
       <Body className="mb-10">
-        It&rsquo;s invite-only by design. Every application is read by a person, not a bot — we&rsquo;re
-        looking for people who are already serious about this, not people we need to convince.
+        It&rsquo;s invite-only and very selective by design. Every application is read by a
+        person, not a bot — we&rsquo;re looking for people who are already serious about this, not
+        people we need to convince.
       </Body>
 
       <Card>
         <Heading className="mb-3">The gathering</Heading>
         <Body>
-          Once a month, members meet in person. It&rsquo;s the one place the four pillars aren&rsquo;t
-          abstractions — just people who take the same things seriously, in the same room.
+          Once a week, members meet in person. It&rsquo;s the one place all of this stops being
+          abstract — just people who take the same things seriously, in the same room.
         </Body>
       </Card>
     </section>

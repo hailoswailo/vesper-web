@@ -1,12 +1,5 @@
 import { Body, Button, Card, Display, Eyebrow, Heading } from "@/components/ui";
 
-const PILLARS = [
-  { name: "Faith", description: "The foundation the other three sit on." },
-  { name: "Food & Fitness", description: "Discipline over your own body, first." },
-  { name: "Relationships", description: "The people you're building a life alongside." },
-  { name: "Work", description: "The vocation you're actually called to." },
-];
-
 export default function Home() {
   return (
     <>
@@ -14,8 +7,8 @@ export default function Home() {
         <Eyebrow>Vesper</Eyebrow>
         <Display className="mb-6 max-w-2xl">Life after six.</Display>
         <Body className="max-w-xl text-lg mb-10">
-          A private, invite-only community for people taking their faith, bodies, relationships, and
-          work seriously. Every application is read by a person, not a bot.
+          Vesper is a community of changemakers — a very selective, invite-only group for people
+          building a more intentional life. Every application is read by a person, not a bot.
         </Body>
         <div className="flex flex-wrap gap-4">
           <Button href="/apply">Apply</Button>
@@ -26,14 +19,24 @@ export default function Home() {
       </section>
 
       <section className="max-w-5xl mx-auto px-6 pb-24">
-        <Heading className="mb-10">Four pillars.</Heading>
+        <Heading className="mb-10">What membership looks like.</Heading>
         <div className="grid sm:grid-cols-2 gap-4">
-          {PILLARS.map((p) => (
-            <Card key={p.name}>
-              <p className="font-display text-2xl text-brass mb-2">{p.name}</p>
-              <Body>{p.description}</Body>
-            </Card>
-          ))}
+          <Card>
+            <p className="font-display text-2xl text-brass mb-2">Goal Setting</p>
+            <Body>Resources to set real goals — and an actual plan for reaching them.</Body>
+          </Card>
+          <Card>
+            <p className="font-display text-2xl text-brass mb-2">Accountability</p>
+            <Body>Structure and support to help you follow through, not just start.</Body>
+          </Card>
+          <Card>
+            <p className="font-display text-2xl text-brass mb-2">In Person</p>
+            <Body>We gather in person once a week — not another app you scroll alone.</Body>
+          </Card>
+          <Card>
+            <p className="font-display text-2xl text-brass mb-2">Selective</p>
+            <Body>Invite-only. Every application is read by a person, not a bot.</Body>
+          </Card>
         </div>
       </section>
 
