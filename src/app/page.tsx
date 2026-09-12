@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <section className="max-w-5xl mx-auto px-6 pt-20 pb-16 sm:pt-28 sm:pb-24">
         <Eyebrow>Vesper</Eyebrow>
-        <Display className="mb-6 max-w-2xl">Life after six.</Display>
+        <Display className="mb-6 max-w-2xl">A new type of community.</Display>
         <Body className="max-w-xl text-lg mb-10">
           Vesper is a community of changemakers — a very selective, invite-only group for people
           building a more intentional life. Every application is read by a person, not a bot.
