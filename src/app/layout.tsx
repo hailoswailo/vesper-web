@@ -21,7 +21,7 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: "Vesper — Life After Six",
   description:
-    "Vesper is a private, invite-only community of changemakers, with resources for goal setting and accountability and a weekly in-person gathering.",
+    "Vesper is a private, invite-only community of changemakers, with resources for goal setting, accountability, and connection, plus a monthly in-person gathering.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

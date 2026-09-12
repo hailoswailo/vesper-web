@@ -8,7 +8,8 @@ export default function Home() {
         <Display className="mb-6 max-w-2xl">A new type of community.</Display>
         <Body className="max-w-xl text-lg mb-10">
           Vesper is a community of changemakers — a very selective, invite-only group for people
-          building a more intentional life. Every application is read by a person, not a bot.
+          building a more intentional life. Members support one another with connections and
+          resources, and every application is read by a person, not a bot.
         </Body>
         <div className="flex flex-wrap gap-4">
           <Button href="/apply">Apply</Button>
@@ -31,11 +32,15 @@ export default function Home() {
           </Card>
           <Card>
             <p className="font-display text-2xl text-brass mb-2">In Person</p>
-            <Body>We gather in person once a week — not another app you scroll alone.</Body>
+            <Body>We gather in person once a month — not another app you scroll alone.</Body>
           </Card>
           <Card>
             <p className="font-display text-2xl text-brass mb-2">Selective</p>
             <Body>Invite-only. Every application is read by a person, not a bot.</Body>
+          </Card>
+          <Card>
+            <p className="font-display text-2xl text-brass mb-2">Community</p>
+            <Body>Members support one another with connections, resources, and introductions.</Body>
           </Card>
         </div>
       </section>

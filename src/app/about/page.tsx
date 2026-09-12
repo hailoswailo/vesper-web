@@ -18,10 +18,12 @@ export default function About() {
       </Body>
 
       <Body className="mb-6">
-        Vesper is a community of changemakers, and the site is built around two things:{" "}
-        <span className="text-brass">goal setting</span> and{" "}
-        <span className="text-brass">accountability</span>. Members set real goals, track the
-        habits that serve them, and check in with themselves regularly.
+        Vesper is a community of changemakers, and the site is built around three things:{" "}
+        <span className="text-brass">goal setting</span>,{" "}
+        <span className="text-brass">accountability</span>, and{" "}
+        <span className="text-brass">connection</span>. Members set real goals, track the
+        habits that serve them, check in with themselves regularly, and support each other
+        with resources and introductions along the way.
       </Body>
 
       <Body className="mb-10">
@@ -33,7 +35,7 @@ export default function About() {
       <Card>
         <Heading className="mb-3">The gathering</Heading>
         <Body>
-          Once a week, members meet in person. It&rsquo;s the one place all of this stops being
+          Once a month, members meet in person. It&rsquo;s the one place all of this stops being
           abstract — just people who take the same things seriously, in the same room.
         </Body>
       </Card>

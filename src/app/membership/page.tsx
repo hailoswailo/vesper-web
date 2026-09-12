@@ -97,7 +97,7 @@ export default function Membership() {
       <Eyebrow>Membership</Eyebrow>
       <Display className="mb-6">Dues.</Display>
       <Body className="mb-12 max-w-xl">
-        Membership keeps Vesper small, funded, and worth showing up to — including the weekly
+        Membership keeps Vesper small, funded, and worth showing up to — including the monthly
         gathering.
       </Body>
 
