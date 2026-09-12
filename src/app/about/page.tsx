@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
+
 import { Body, Card, Display, Eyebrow, Heading } from "@/components/ui";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Vesper takes its name from the evening prayer. It's a community of changemakers built around goal setting, accountability, and connection.",
+};
 
 // First-draft copy — no brand brief exists in the source repo to pull from,
 // so this is written from the app's existing tone (application copy, the

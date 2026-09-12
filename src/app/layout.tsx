@@ -18,10 +18,32 @@ const raleway = Raleway({
   weight: ["400", "500", "600"],
 });
 
+const SITE_URL = "https://vespermag.co";
+const TITLE = "Vesper — Life After Six";
+const DESCRIPTION =
+  "Vesper is a private, invite-only community of changemakers, with resources for goal setting, accountability, and connection, plus a monthly in-person gathering.";
+
 export const metadata: Metadata = {
-  title: "Vesper — Life After Six",
-  description:
-    "Vesper is a private, invite-only community of changemakers, with resources for goal setting, accountability, and connection, plus a monthly in-person gathering.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: TITLE,
+    template: "%s | Vesper",
+  },
+  description: DESCRIPTION,
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    url: SITE_URL,
+    siteName: "Vesper",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Vesper" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -14,6 +14,9 @@ export function Nav() {
           <Link href="/membership" className="text-ivory/80 hover:text-brass transition-colors">
             Membership
           </Link>
+          <Link href="/faq" className="text-ivory/80 hover:text-brass transition-colors">
+            FAQ
+          </Link>
           <Link
             href="/apply"
             className="text-brass border border-brass/50 rounded-lg px-4 py-2 text-xs tracking-[0.15em] uppercase hover:bg-brass/10 transition-colors"
